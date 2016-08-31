@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="yes"?>
+<UC_AllgemeineVersicherungsdatenXML
+	CDM_VERSION="5.1.0"
+	xmlns="http://ws.gematik.de/fa/vsds/UC_AllgemeineVersicherungsdatenXML/v5.1">
+	<Versicherter>
+		<Versicherungsschutz>
+			<Beginn>20110601</Beginn>
+			<Kostentraeger>
+				<Kostentraegerkennung>101575519</Kostentraegerkennung>
+				<Kostentraegerlaendercode>D</Kostentraegerlaendercode>
+				<Name>Techniker Krankenkasse</Name>
+				<AbrechnenderKostentraeger>
+					<Kostentraegerkennung>106777503</Kostentraegerkennung>
+					<Name>TK</Name>
+				</AbrechnenderKostentraeger>
+			</Kostentraeger>
+		</Versicherungsschutz>
+		<Zusatzinfos>
+			<ZusatzinfosGKV>
+				<Rechtskreis>1</Rechtskreis>
+				<Versichertenart>1</Versichertenart>
+				<Versichertenstatus_RSA>0</Versichertenstatus_RSA>
+				<Zusatzinfos_Abrechnung_GKV>
+					<Kostenerstattung_ambulant>0</Kostenerstattung_ambulant>
+					<Kostenerstattung_stationaer>0</Kostenerstattung_stationaer>
+					<WOP>52</WOP>
+				</Zusatzinfos_Abrechnung_GKV>
+			</ZusatzinfosGKV>
+		</Zusatzinfos>
+	</Versicherter>
+</UC_AllgemeineVersicherungsdatenXML>

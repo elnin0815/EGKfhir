@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="yes"?>
+<vsda:UC_AllgemeineVersicherungsdatenXML
+	CDM_VERSION="5.2.0" xmlns:vsda="http://ws.gematik.de/fa/vsdm/vsd/v5.2">
+	<vsda:Versicherter>
+		<vsda:Versicherungsschutz>
+			<vsda:Beginn>20090101</vsda:Beginn>
+			<vsda:Kostentraeger>
+				<vsda:Kostentraegerkennung>108035612</vsda:Kostentraegerkennung>
+				<vsda:Kostentraegerlaendercode>D</vsda:Kostentraegerlaendercode>
+				<vsda:Name>mhplus</vsda:Name>
+				<vsda:AbrechnenderKostentraeger>
+					<vsda:Kostentraegerkennung>108035612</vsda:Kostentraegerkennung>
+					<vsda:Kostentraegerlaendercode>D</vsda:Kostentraegerlaendercode>
+					<vsda:Name>mhplus BKK</vsda:Name>
+				</vsda:AbrechnenderKostentraeger>
+			</vsda:Kostentraeger>
+		</vsda:Versicherungsschutz>
+		<vsda:Zusatzinfos>
+			<vsda:ZusatzinfosGKV>
+				<vsda:Versichertenart>1</vsda:Versichertenart>
+				<vsda:Zusatzinfos_Abrechnung_GKV>
+					<vsda:WOP>52</vsda:WOP>
+				</vsda:Zusatzinfos_Abrechnung_GKV>
+			</vsda:ZusatzinfosGKV>
+		</vsda:Zusatzinfos>
+	</vsda:Versicherter>
+</vsda:UC_AllgemeineVersicherungsdatenXML>

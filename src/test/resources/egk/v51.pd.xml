@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="yes"?>
+<UC_PersoenlicheVersichertendatenXML
+	CDM_VERSION="5.1.0"
+	xmlns="http://ws.gematik.de/fa/vsds/UC_PersoenlicheVersichertendatenXML/v5.1">
+	<Versicherter>
+		<Versicherten_ID>O550911915</Versicherten_ID>
+		<Person>
+			<Geburtsdatum>19850328</Geburtsdatum>
+			<Vorname>Max</Vorname>
+			<Nachname>Muster</Nachname>
+			<Geschlecht>M</Geschlecht>
+			<StrassenAdresse>
+				<Postleitzahl>69120</Postleitzahl>
+				<Ort>Heidelberg</Ort>
+				<Land>
+					<Wohnsitzlaendercode>D</Wohnsitzlaendercode>
+				</Land>
+				<Strasse>Neuenheimer Landstr.</Strasse>
+				<Hausnummer>15</Hausnummer>
+			</StrassenAdresse>
+		</Person>
+	</Versicherter>
+</UC_PersoenlicheVersichertendatenXML>
